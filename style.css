@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    background-color: #383889;
+}
+header {
+    width: 720px;
+    margin: 30px auto;
+}
+#title {
+    text-align: center;
+    color: #FFF;
+    margin-top: 50px;
+}
+#description {
+    text-align: center;
+    font-style: italic;
+    color: #FFF;
+    font-size: 20px;
+}
+#survey-form {
+    background-color: #272747;
+    padding: 40px;
+    margin: 30px auto;
+    width: 720px;
+    border-radius: 5px;
+}
+.form-text {
+    color: #FFF;
+    margin-bottom: 5px;
+}
+label {
+    color: #FFF;
+    display: block;
+}
+#name, #email, #number, #dropdown, #favorite, #comments {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0 25px 0;
+}
+#comments {
+    resize: vertical;
+}
+#submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #37AF65;
+    color: #FFF;
+}
+#submit:hover {
+    cursor: pointer;
+}
+@media (max-width: 760px) and (min-width: 600px) {
+    #survey-form {
+        width: 560px;
+    }
+    header {
+        width: 560px;
+    }
+}
+@media (max-width: 600px) {
+    #survey-form {
+        background-color: #272747;
+        padding: 40px;
+        margin: 30px auto;
+        width: 95vw;
+        border-radius: 5px;
+    }
+    header {
+        width: 95vw;
+        margin: 30px auto;
+    }
+}

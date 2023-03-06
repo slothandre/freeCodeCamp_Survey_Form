@@ -1,1 +1,1 @@
-Esse repositório é a criação de um formulário não-funcional com HTML e CSS para fins de estudo pelo site freecodecamp.org
+This repository is the creation of a non-functional form with HTML and CSS for study purposes by the website freecodecamp.org
